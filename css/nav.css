@@ -1,0 +1,29 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-primario);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--color-secundario);
+}
+
+form {
+    margin-top: 1rem;
+}.nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-principal);
+}
+
+.nav.active {
+    display: flex; 
+}
